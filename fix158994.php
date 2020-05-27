@@ -7,12 +7,16 @@
  * Author URI:      https://github.com/fixonweb
  * Text Domain:     fix158994
  * Domain Path:     /languages
- * Version:         0.1.3
+ * Version:         0.1.4
  *
  * @package         Fix158994
  */
 
 if ( ! defined( 'ABSPATH' ) ) { exit; }
+
+
+require 'plugin-update-checker.php';
+$myUpdateChecker = Puc_v4_Factory::buildUpdateChecker('https://github.com/FIXONWEB/fix158994', __FILE__, 'fix158994/fix158994');
 
 add_shortcode("fix158994", "fix158994");
 function fix158994($atts, $content = null) {
