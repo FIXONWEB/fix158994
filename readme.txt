@@ -13,5 +13,10 @@ Sniper shortcode para the event calendar. Mostrar listagem simples dos próximos
 
 == Description ==
 
-Apenas um recurso a mais disponivel para quem usa o the event calendar.
+Apenas um recurso a mais disponivel para quem usa o the event calendar. Este é um plugin do WordPress.
 
+== Screenshots ==
+
+1. Exemplo de como ficaria no front-end
+2. Exemplo de shortcode 1 [fix158994_list]
+3. Exemplo de shortcode 2 [fix158994_list limit=5 style_box="padding-bottom:30px;margin:10px;"] 

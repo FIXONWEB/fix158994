@@ -7,7 +7,7 @@
  * Author URI:      https://github.com/fixonweb
  * Text Domain:     fix158994
  * Domain Path:     /languages
- * Version:         0.1.2
+ * Version:         0.1.3
  *
  * @package         Fix158994
  */
